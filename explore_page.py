@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 
 @st.cache
 def load_data():
-    df = pd.read_csv("nyurasul\esg.csv")
+    df = pd.read_csv("esg.csv")
     return df
 def load_data2():
-    df1 = pd.read_csv("nyurasul\pdata.csv")
+    df1 = pd.read_csv("pdata.csv")
     return df1
 df = load_data()
 df1 = load_data2()
