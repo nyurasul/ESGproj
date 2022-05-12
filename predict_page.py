@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import numpy as np
-import numexpr as ne
 import pandas as pd
 
 ne.set_vml_num_threads(8)
