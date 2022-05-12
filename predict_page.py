@@ -1,9 +1,10 @@
+import sys
 import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
 
-
+!{sys.executable} -m pip install sklearn
 def load_model():
     with open('saved_steps.pkl', 'rb') as file:
         data = pickle.load(file)
