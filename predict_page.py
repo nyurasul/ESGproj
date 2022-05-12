@@ -3,8 +3,6 @@ import pickle
 import numpy as np
 import pandas as pd
 
-ne.set_vml_num_threads(8)
-
 def load_model():
     with open('nyurasul\saved_steps.pkl', 'rb') as file:
         data = pickle.load(file)
